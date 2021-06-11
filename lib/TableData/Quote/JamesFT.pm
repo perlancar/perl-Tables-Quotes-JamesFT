@@ -1,4 +1,4 @@
-package Tables::Quotes::JamesFT;
+package TableData::Quote::JamesFT;
 
 # AUTHORITY
 # DATE
@@ -7,15 +7,15 @@ package Tables::Quotes::JamesFT;
 
 use utf8;
 use Role::Tiny::With;
-
-with 'TablesRole::Source::CSVDATA';
+with 'TableDataRole::Source::CSVInDATA';
 
 1;
 # ABSTRACT: Quotes from JamesFT github repository
 
 =head1 SEE ALSO
 
-Source: L<https://github.com/JamesFT/Database-Quotes-JSON>
+Source: L<https://github.com/JamesFT/Database-Quotes-JSON> (Jan 23, 2017
+version).
 
 =cut
 
